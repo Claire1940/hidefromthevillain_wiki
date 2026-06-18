@@ -3,6 +3,8 @@
 import { useState, Suspense, lazy } from "react";
 import {
   ArrowRight,
+  Atom,
+  BellRing,
   BookOpen,
   CalendarDays,
   Check,
@@ -10,11 +12,29 @@ import {
   Clock,
   Coins,
   Copy,
+  Crown,
+  DoorOpen,
   ExternalLink,
+  EyeOff,
+  Flame,
+  Gamepad2,
+  Ghost,
   Gift,
+  HeartPulse,
   Map,
+  Palette,
+  PartyPopper,
+  RefreshCw,
+  Skull,
   Sparkles,
+  Split,
+  Swords,
+  Ticket,
+  Timer,
+  TrendingUp,
+  Trophy,
   Users,
+  Wrench,
   Zap,
 } from "lucide-react";
 import Link from "next/link";
@@ -226,6 +246,12 @@ export default function HomePageClient({
       return "bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]";
     return "bg-[hsl(var(--nav-theme)/0.08)] border-[hsl(var(--nav-theme)/0.25)] text-muted-foreground";
   };
+
+  // Per-card icons for modules 5-8 (distinct within each group and across modules)
+  const vcCurrencyIcons = [Atom, HeartPulse, Palette, Ticket];
+  const villainSkinsIcons = [Flame, Crown, Skull, Ghost];
+  const mapsIcons = [DoorOpen, EyeOff, Swords, Split, RefreshCw, Timer];
+  const updatesIcons = [Trophy, TrendingUp, PartyPopper, Wrench, BellRing, Gamepad2];
 
   return (
     <div className="home-shell min-h-screen bg-background text-foreground">
@@ -648,12 +674,17 @@ export default function HomePageClient({
           />
 
           <div className="scroll-reveal space-y-4">
-            {t.modules.hftvVCCurrency.rows.map((r: any, index: number) => (
+            {t.modules.hftvVCCurrency.rows.map((r: any, index: number) => {
+              const Icon = vcCurrencyIcons[index];
+              return (
               <div
                 key={index}
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
                 <div className="flex flex-wrap items-center gap-3 mb-4">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
                   <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
                     {r.spendingPath}
                   </h3>
@@ -676,7 +707,8 @@ export default function HomePageClient({
                   </div>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -695,12 +727,17 @@ export default function HomePageClient({
           />
 
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.hftvVillainSkins.tiers.map((tier: any, index: number) => (
+            {t.modules.hftvVillainSkins.tiers.map((tier: any, index: number) => {
+              const Icon = villainSkinsIcons[index];
+              return (
               <div
                 key={index}
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
                 <div className="flex items-center gap-3 mb-3">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <Icon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
                   <span
                     className={`flex h-9 w-9 items-center justify-center rounded-full border-2 text-sm font-bold ${tierStyle(tier.tier)}`}
                   >
@@ -726,7 +763,8 @@ export default function HomePageClient({
                   </div>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -745,12 +783,19 @@ export default function HomePageClient({
           />
 
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.hftvMaps.cards.map((card: any, index: number) => (
+            {t.modules.hftvMaps.cards.map((card: any, index: number) => {
+              const Icon = mapsIcons[index];
+              return (
               <div
                 key={index}
                 className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
               >
-                <h3 className="font-bold text-lg mb-2">{card.title}</h3>
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-lg">{card.title}</h3>
+                </div>
                 <span className="inline-block text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] mb-3">
                   {card.focus}
                 </span>
@@ -765,7 +810,8 @@ export default function HomePageClient({
                   </div>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -784,11 +830,16 @@ export default function HomePageClient({
           />
 
           <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-6">
-            {t.modules.hftvUpdates.entries.map((entry: any, index: number) => (
+            {t.modules.hftvUpdates.entries.map((entry: any, index: number) => {
+              const Icon = updatesIcons[index];
+              return (
               <div key={index} className="relative">
                 <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
                 <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <Icon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
                     <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                       {entry.type}
                     </span>
@@ -807,7 +858,8 @@ export default function HomePageClient({
                   </p>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
