@@ -1,10 +1,628 @@
 {
+  "seo": {
+    "home": {
+      "title": "Hide From The Villain Wiki - Códigos, TEMP V e Vilões",
+      "description": "Encontre códigos de Hide From The Villain, poderes TEMP V, dicas de VC, vilões, mapas e guias de sobrevivência para o jogo de sobrevivência de esconde-esconde 1vAll do Roblox.",
+      "keywords": "Hide From The Villain, Roblox, códigos, TEMP V, VC, vilões, mapas",
+      "ogTitle": "Hide From The Villain Wiki - Códigos, TEMP V e Vilões",
+      "ogDescription": "Encontre códigos de Hide From The Villain, poderes TEMP V, dicas de VC, vilões, mapas e guias de sobrevivência para o jogo de sobrevivência de esconde-esconde 1vAll do Roblox.",
+      "twitterTitle": "Hide From The Villain Wiki - Códigos, TEMP V e Vilões",
+      "twitterDescription": "Encontre códigos de Hide From The Villain, poderes TEMP V, dicas de VC, vilões, mapas e guias de sobrevivência para o jogo de sobrevivência de esconde-esconde 1vAll do Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
     "roblox": "Roblox",
     "villain": "Vilão",
-    "gameplay": "Gameplay",
+    "gameplay": "Jogabilidade",
     "items": "Itens"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Roblox 1vAll Sobrevivência Furtiva",
+    "title": "Hide From The Villain Wiki",
+    "description": "Hide From The Villain é um jogo de sobrevivência furtiva 1-vs-all do Roblox onde os sobreviventes se escondem de um vilão, permanecem vivos até a ajuda chegar, coletam poderes TEMP V para revidar, ganham VC, resgatam códigos e desbloqueiam skins de vilão.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnSteamCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "2.75K",
+        "label": "CCU ao Vivo"
+      },
+      "stat2": {
+        "value": "1 vs All",
+        "label": "Modo de Jogo"
+      },
+      "stat3": {
+        "value": "92%",
+        "label": "Taxa de Curtidas"
+      },
+      "stat4": {
+        "value": "Códigos no Grupo",
+        "label": "Fonte do Código"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Hide From The Villain",
+    "description": "Um jogo de sobrevivência furtiva 1 vs All no Roblox onde os sobreviventes se escondem de um vilão, permanecem vivos até a ajuda chegar, coletam poderes TEMP V para revidar e resgatam códigos para VC."
+  },
+  "tools": {
+    "title": "Hide From The Villain",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para sobreviver em Hide From The Villain: códigos, TEMP V, VC, vilões, mapas e atualizações",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "Códigos",
+        "description": "Códigos ativos para recompensas de VC e TEMP V"
+      },
+      {
+        "icon": "ExternalLink",
+        "title": "Links Oficiais",
+        "description": "Página do Roblox, grupo e Discord"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes",
+        "description": "Básico de sobrevivência na primeira partida"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Poderes TEMP V",
+        "description": "Mecânica de contra-ataque e tempo"
+      },
+      {
+        "icon": "Package",
+        "title": "Moeda VC",
+        "description": "Ganhe e gaste VC com sabedoria"
+      },
+      {
+        "icon": "Users",
+        "title": "Skins de Vilão",
+        "description": "Prioridade de desbloqueio para skins de caçador"
+      },
+      {
+        "icon": "Eye",
+        "title": "Mapas e Esconderijos",
+        "description": "Rotas furtivas e tempo de fuga"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações",
+        "description": "Novos códigos, marcos e correções"
+      }
+    ]
+  },
+  "modules": {
+    "hftvCodes": {
+      "title": "Códigos de Hide From The Villain",
+      "eyebrow": "Códigos",
+      "intro": "Resgate códigos ativos de Hide From The Villain para VC, TEMP V, e outras recompensas de sobrevivência. Use o botão Códigos dentro da experiência Roblox para resgatá-los.",
+      "activeCodes": [
+        {
+          "code": "100KMembers",
+          "reward": "VC e TEMP V",
+          "tag": "Novo"
+        },
+        {
+          "code": "5kCCU",
+          "reward": "VC e TEMP V",
+          "tag": "Novo"
+        },
+        {
+          "code": "GAMEISBACK",
+          "reward": "300 VC e 3 TEMP V",
+          "tag": "Melhor Valor"
+        },
+        {
+          "code": "10kmembers",
+          "reward": "200 VC",
+          "tag": "VC"
+        },
+        {
+          "code": "100kvisits",
+          "reward": "150 VC",
+          "tag": "VC"
+        },
+        {
+          "code": "Hotfix",
+          "reward": "300 VC",
+          "tag": "VC"
+        },
+        {
+          "code": "SORRY4SHUTDOWN",
+          "reward": "150 VC e TEMP V",
+          "tag": "Recompensa de Desligamento"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "Release",
+          "reward": "Recompensas grátis"
+        },
+        {
+          "code": "Update1",
+          "reward": "Recompensas grátis"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Abra o jogo",
+          "description": "Inicie Hide From The Villain a partir da página oficial da experiência Roblox."
+        },
+        {
+          "title": "Abra o menu de Códigos",
+          "description": "Clique no botão Códigos no lado esquerdo da tela."
+        },
+        {
+          "title": "Insira o código",
+          "description": "Cole o código na caixa de texto exatamente como mostrado, incluindo letras maiúsculas e minúsculas."
+        },
+        {
+          "title": "Resgate a recompensa",
+          "description": "Pressione Resgatar para reivindicar a recompensa. Se um código novo não funcionar, entre novamente no jogo para mudar para um servidor mais novo."
+        }
+      ]
+    },
+    "hftvOfficialLinks": {
+      "title": "Links Oficiais do Hide From The Villain no Roblox",
+      "eyebrow": "Links Oficiais",
+      "intro": "Jogue a experiência oficial Hide From The Villain no Roblox por Splitline: World. Use a página oficial do Roblox, grupo e Discord para evitar espelhos falsos e páginas de script.",
+      "items": [
+        {
+          "label": "Experiência Oficial do Roblox",
+          "value": "HIDE FROM THE VILLAIN",
+          "description": "A página oficial de jogo do Roblox para Hide From The Villain.",
+          "href": "https://www.roblox.com/games/97463774278378/HIDE-FROM-THE-VILLAIN"
+        },
+        {
+          "label": "Desenvolvedor",
+          "value": "Splitline: World",
+          "description": "A comunidade Roblox listada como criadora de Hide From The Villain.",
+          "href": "https://www.roblox.com/communities/35155002/Splitline-World"
+        },
+        {
+          "label": "Discord Oficial",
+          "value": "Hide From The Villain Discord",
+          "description": "O servidor da comunidade para anúncios, teasers de atualização, discussão do jogo e distribuição de códigos.",
+          "href": "https://discord.com/invite/6UjnaQBWJA"
+        },
+        {
+          "label": "Gênero",
+          "value": "Sobrevivência",
+          "description": "Hide From The Villain é listado como uma experiência de sobrevivência com uma estrutura 1-vs-all."
+        },
+        {
+          "label": "Configuração Principal",
+          "value": "Sobrevivência de esconde-esconde 1-vs-all",
+          "description": "Um vilão caça sobreviventes enquanto os jogadores se escondem, sobrevivem e procuram maneiras de revidar."
+        },
+        {
+          "label": "Mecânica de Contra-ataque",
+          "value": "TEMP V",
+          "description": "Os jogadores podem encontrar TEMP V durante uma partida para ganhar poderes e lutar contra o vilão."
+        }
+      ]
+    },
+    "hftvBeginnerGuide": {
+      "title": "Guia para Iniciantes de Hide From The Villain",
+      "eyebrow": "Guia para Iniciantes",
+      "intro": "Aprenda o ciclo básico em Hide From The Villain: esconda-se, sobreviva, use a furtividade e decida quando TEMP V vale o risco.",
+      "steps": [
+        {
+          "title": "Comece com a sobrevivência, não com heroísmos",
+          "description": "Seu primeiro trabalho em Hide From The Villain é permanecer vivo até que a ajuda chegue. Mova-se com propósito e evite ficar em áreas abertas."
+        },
+        {
+          "title": "Use a furtividade como seu plano padrão",
+          "description": "A descrição oficial do jogo diz aos jogadores para se esconderem e usarem a furtividade. Priorize cobertura, cantos e rotas mais seguras antes de tentar jogadas arriscadas."
+        },
+        {
+          "title": "Observe a pressão do vilão",
+          "description": "Quando o vilão estiver perto, pare de usar rotas amplas e concentre-se em quebrar a linha de visão. Um reposicionamento seguro e rápido é melhor do que uma corrida dramática."
+        },
+        {
+          "title": "Procure por TEMP V quando a rota estiver segura",
+          "description": "TEMP V permite que os sobreviventes ganhem poderes e revidem. Procure por ele quando tiver espaço para se mover, não quando o vilão já estiver se aproximando."
+        },
+        {
+          "title": "Use TEMP V para mudar a rodada",
+          "description": "TEMP V é melhor usado quando lutar de volta cria valor de sobrevivência: escapar da pressão, proteger um momento crítico ou forçar o vilão a recuar."
+        },
+        {
+          "title": "Verifique os códigos antes de sessões longas",
+          "description": "Os códigos de Hide From The Villain podem dar VC e TEMP V. Resgate-os antes de jogar para começar com mais recursos."
+        }
+      ]
+    },
+    "hftvTempVPowers": {
+      "title": "Guia de Poderes TEMP V de Hide From The Villain",
+      "eyebrow": "TEMP V",
+      "intro": "TEMP V é a principal mecânica de contra-ataque em Hide From The Villain. Transforma uma fuga de pura ocultação em uma chance de revidar o vilão.",
+      "faqs": [
+        {
+          "question": "O que o TEMP V faz em Hide From The Villain?",
+          "answer": "TEMP V concede poderes aos sobreviventes que lhes permitem revidar o vilão. A descrição oficial do jogo o enquadra como a principal alternativa a se esconder e esperar por ajuda."
+        },
+        {
+          "question": "Como os jogadores obtêm TEMP V em Hide From The Villain?",
+          "answer": "Os jogadores podem encontrar TEMP V durante uma partida. Os códigos de Hide From The Villain também podem recompensar com TEMP V, incluindo GAMEISBACK, SORRY4SHUTDOWN, 100KMembers e 5kCCU."
+        },
+        {
+          "question": "Quando os iniciantes devem usar TEMP V em Hide From The Villain?",
+          "answer": "Use TEMP V quando puder ajudá-lo a sobreviver à pressão, escapar de uma situação perigosa ou criar espaço do vilão. Evite desperdiçá-lo durante momentos de calma onde se esconder já funciona."
+        },
+        {
+          "question": "Os jogadores de Hide From The Villain devem se esconder ou lutar?",
+          "answer": "Comece se escondendo e usando a furtividade. Lute com TEMP V quando a pressão do vilão se tornar muito alta ou quando uma jogada poderosa puder mudar a rodada com segurança."
+        },
+        {
+          "question": "Quais códigos de Hide From The Villain dão TEMP V?",
+          "answer": "GAMEISBACK dá 300 VC e 3 TEMP V. SORRY4SHUTDOWN dá 150 VC e TEMP V. 100KMembers e 5kCCU dão VC e TEMP V."
+        },
+        {
+          "question": "Qual é o hábito mais seguro de TEMP V em Hide From The Villain?",
+          "answer": "Mantenha sua rota de fuga em mente antes de ativar ou usar TEMP V. Os poderes são úteis, mas ficar preso depois de usá-los ainda é uma maneira confiável de perder a rodada."
+        }
+      ]
+    },
+    "hftvVCCurrency": {
+      "title": "Guia de Moeda VC de Hide From The Villain",
+      "eyebrow": "Guia de Moeda",
+      "intro": "VC é a moeda principal em Hide From The Villain. Os jogadores a usam para desbloquear skins de vilões e comprar ferramentas de sobrevivência, como Kits de Primeiros Socorros e TEMP V.",
+      "rows": [
+        {
+          "spendingPath": "TEMP V",
+          "category": "Item de poder de sobrevivência",
+          "howToGet": "Ganhe VC jogando rodadas ou resgatando códigos ativos de Hide From The Villain.",
+          "bestFor": "Jogadores que querem uma chance de revidar em vez de apenas se esconder.",
+          "value": "TEMP V concede habilidades aleatórias estilo super-herói quando ativado, tornando-o a compra mais direta para mudar a rodada."
+        },
+        {
+          "spendingPath": "Kits de Primeiros Socorros",
+          "category": "Ferramenta de sobrevivência",
+          "howToGet": "Use VC de jogabilidade ou VC grátis de códigos antes de gastar em desbloqueios cosméticos.",
+          "bestFor": "Iniciantes que são pegos com frequência e precisam de mais margem para erros.",
+          "value": "Kits de Primeiros Socorros apoiam uma sobrevivência mais longa durante rodadas com muitas perseguições."
+        },
+        {
+          "spendingPath": "Skins de Vilão",
+          "category": "Progressão cosmética e de função",
+          "howToGet": "Economize VC de jogadas repetidas e códigos de marcos antes de comprar skins.",
+          "bestFor": "Jogadores que querem se tornar o vilão e colecionar visuais de caçador.",
+          "value": "Skins de vilão fornecem identidade de função e objetivos de coleção em Hide From The Villain."
+        },
+        {
+          "spendingPath": "Recompensas de Código Primeiro",
+          "category": "Rota de moeda grátis",
+          "howToGet": "Resgate códigos ativos através do botão Códigos no jogo, no lado esquerdo da tela.",
+          "bestFor": "Todo jogador antes de fazer compras na loja.",
+          "value": "Os códigos dão VC e TEMP V grátis, reduzindo a rotina inicial antes de escolher ferramentas ou skins."
+        }
+      ]
+    },
+    "hftvVillainSkins": {
+      "title": "Guia de Skins de Vilão de Hide From The Villain",
+      "eyebrow": "Desbloqueios de Vilão",
+      "intro": "Skins de vilão são o principal objetivo de VC de longo prazo em Hide From The Villain para jogadores que querem se tornar o caçador. Esta lista de prioridades foca em valor prático, silhuetas reconhecíveis e clareza de função.",
+      "tiers": [
+        {
+          "tier": "S",
+          "name": "TEMP V Antes das Skins",
+          "unlockType": "Prioridade de item de poder",
+          "reason": "TEMP V afeta diretamente a sobrevivência, concedendo habilidades aleatórias de super-herói durante uma rodada.",
+          "bestFor": "Jogadores novos e que retornam que querem valor de jogabilidade imediato antes de economizar para cosméticos.",
+          "vcPlan": "Compre ou resgate TEMP V primeiro, depois economize VC extra para skins de vilão."
+        },
+        {
+          "tier": "A",
+          "name": "Homelander",
+          "unlockType": "Skin de vilão",
+          "reason": "Um visual de vilão altamente reconhecível que se encaixa na fantasia central de esconder e caçar de Hide From The Villain.",
+          "bestFor": "Jogadores que querem uma identidade clara de caçador ao se tornarem o vilão.",
+          "vcPlan": "Economize VC depois de cobrir as ferramentas básicas de sobrevivência."
+        },
+        {
+          "tier": "A",
+          "name": "Omni-Man",
+          "unlockType": "Skin de vilão",
+          "reason": "Um forte alvo de colecionador para jogadores que querem outra opção importante de estilo de super-herói maligno.",
+          "bestFor": "Jogadores focados na coleção de vilões e variedade de funções.",
+          "vcPlan": "Desbloqueie após um fluxo estável de VC de códigos e jogo regular."
+        },
+        {
+          "tier": "B",
+          "name": "Skin Estilo Super-Homem Maligno",
+          "unlockType": "Skin de vilão",
+          "reason": "Uma opção de vilão com capa reconhecível para jogadores que querem variedade visual.",
+          "bestFor": "Colecionadores que já têm seu visual de vilão principal preferido.",
+          "vcPlan": "Compre depois de compras de sobrevivência de maior prioridade e skins favoritas."
+        }
+      ]
+    },
+    "hftvMaps": {
+      "title": "Guia de Mapas Hide From The Villain",
+      "eyebrow": "Rotas de Sobrevivência",
+      "intro": "Vencer como sobrevivente em Hide From The Villain depende de discrição, conhecimento do mapa e tempo. O melhor esconderijo é aquele que ainda lhe oferece uma rota de saída quando o vilão verifica a sala.",
+      "cards": [
+        {
+          "title": "Comece com Consciência da Saída",
+          "focus": "Movimento inicial",
+          "whatToDo": "No início de uma rodada, mova-se para áreas com mais de uma saída em vez de se esconder em um beco sem saída.",
+          "why": "Um esconderijo sem rota de fuga transforma uma verificação do vilão em uma perda instantânea."
+        },
+        {
+          "title": "Use Furtividade Antes da Velocidade",
+          "focus": "Controle de ruído e visibilidade",
+          "whatToDo": "Evite caminhos abertos óbvios quando o vilão estiver por perto, então reposicione-se somente depois que a ameaça se afastar.",
+          "why": "O ciclo de jogo oficial recompensa esconder-se e ser furtivo até que o resgate chegue."
+        },
+        {
+          "title": "Mantenha as Rotas TEMP V em Mente",
+          "focus": "Rota de contra-ataque",
+          "whatToDo": "Fique atento às oportunidades de TEMP V durante o movimento e trate-as como uma ferramenta de recuperação.",
+          "why": "TEMP V concede poderes que permitem aos sobreviventes revidar em vez de apenas correr."
+        },
+        {
+          "title": "Não Empilhe o Servidor Inteiro",
+          "focus": "Sobrevivência em grupo",
+          "whatToDo": "Evite aglomerar-se com muitos sobreviventes em uma sala ou corredor óbvio.",
+          "why": "Uma varredura do vilão pode expor vários jogadores quando todos se escondem no mesmo local previsível."
+        },
+        {
+          "title": "Gire Após uma Verificação do Vilão",
+          "focus": "Esconderijo no meio da rodada",
+          "whatToDo": "Quando o vilão procurar perto de sua localização e sair, mova-se para um novo ângulo em vez de ficar paralisado.",
+          "why": "Vilões frequentemente verificam novamente zonas de busca bem-sucedidas, então mudar de posição reduz a detecção repetida."
+        },
+        {
+          "title": "Guarde o Movimento de Pânico para o Momento do Resgate",
+          "focus": "Sobrevivência no final da rodada",
+          "whatToDo": "Quando a janela de resgate estiver próxima, prefira distância segura e quebras de linha de visão em vez de caça arriscada a itens.",
+          "why": "A sobrevivência tardia em Hide From The Villain é sobre evitar o erro final, não sobre encaixar mais um movimento chamativo."
+        }
+      ]
+    },
+    "hftvUpdates": {
+      "title": "Atualizações Hide From The Villain",
+      "eyebrow": "Atualizações ao Vivo",
+      "intro": "Acompanhe as importantes mudanças de Hide From The Villain que os jogadores se importam: novos códigos, recompensas de marcos, compensação por desligamento e canais oficiais da comunidade.",
+      "entries": [
+        {
+          "date": "2026-06-18",
+          "type": "Marco da comunidade",
+          "title": "Código 100KMembers",
+          "details": "O código 100KMembers recompensa VC e TEMP V.",
+          "impact": "Útil para jogadores que desejam tanto moeda quanto um item de poder direto."
+        },
+        {
+          "date": "2026-06-18",
+          "type": "Marco de jogadores simultâneos",
+          "title": "Código 5kCCU",
+          "details": "O código 5kCCU recompensa VC e TEMP V.",
+          "impact": "Uma forte recompensa de marco para jogadores que estão economizando para ferramentas ou skins de vilão."
+        },
+        {
+          "date": "2026-06-18",
+          "type": "Recompensa de retorno",
+          "title": "Código GAMEISBACK",
+          "details": "O código GAMEISBACK recompensa 300 VC e 3 TEMP V.",
+          "impact": "Uma das melhores recompensas iniciais porque oferece tanto moeda gastável quanto múltiplos usos de TEMP V."
+        },
+        {
+          "date": "2026-06-18",
+          "type": "Recompensa de hotfix",
+          "title": "Código Hotfix",
+          "details": "O código Hotfix recompensa 300 VC.",
+          "impact": "Bom para economizar para compras na loja."
+        },
+        {
+          "date": "2026-06-18",
+          "type": "Compensação por desligamento",
+          "title": "Código SORRY4SHUTDOWN",
+          "details": "O código SORRY4SHUTDOWN recompensa 150 VC e TEMP V.",
+          "impact": "Uma recompensa de compensação que ajuda os jogadores a recuperar valor após o tempo de inatividade."
+        },
+        {
+          "date": "2026-06-18",
+          "type": "Status do jogo",
+          "title": "Experiência Roblox de Sobrevivência / 1 vs All",
+          "details": "Hide From The Villain é listado como um jogo de Sobrevivência com um subgênero 1 vs All por Splitline: World.",
+          "impact": "O ciclo principal permanece simples: esconda-se, use furtividade, sobreviva até que a ajuda chegue, encontre TEMP V ou torne-se o vilão."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "",
+    "subtitle": "Tudo o que você precisa saber sobre Hide From The Villain",
+    "questions": [
+      {
+        "question": "O que é Hide From The Villain no Roblox?",
+        "answer": "Hide From The Villain é um jogo de sobrevivência furtiva 1vAll do Roblox feito por Splitline: World. Os sobreviventes se escondem de um vilão, permanecem vivos até a ajuda chegar e podem encontrar TEMP V para revidar."
+      },
+      {
+        "question": "Como resgato códigos de Hide From The Villain?",
+        "answer": "Abra Hide From The Villain, clique no botão Códigos no lado esquerdo da tela, cole o código com a capitalização correta e pressione Resgatar para reivindicar suas recompensas de VC e TEMP V."
+      },
+      {
+        "question": "O que é TEMP V em Hide From The Villain?",
+        "answer": "TEMP V é a mecânica de revide em Hide From The Villain. Ela dá poderes aos sobreviventes para que eles possam revidar o vilão em vez de apenas se esconder e esperar por ajuda."
+      },
+      {
+        "question": "Como ganho VC em Hide From The Villain?",
+        "answer": "Você ganha VC em Hide From The Villain jogando rodadas e resgatando códigos ativos. VC é então gasto em ferramentas de sobrevivência, TEMP V e skins de vilão na loja do jogo."
+      },
+      {
+        "question": "Onde posso jogar Hide From The Villain?",
+        "answer": "Hide From The Villain é jogável na página oficial da experiência Roblox por Splitline: World. Sempre use a página oficial do Roblox, grupo e Discord em vez de espelhos falsos."
+      },
+      {
+        "question": "Hide From The Villain recebe atualizações regulares?",
+        "answer": "Sim. Hide From The Villain recebe novos códigos, recompensas por marcos e compensação por desligamento. Jogadores que retornam devem verificar o grupo oficial e o Discord antes de presumir que um código antigo ainda funciona."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Hide From The Villain?",
+    "description": "Junte-se à comunidade Hide From The Villain no Discord para códigos, guias, dicas de TEMP V e atualizações!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Hide From The Villain",
+    "description": "Seu centro de recursos completo para códigos de Hide From The Villain, poderes de TEMP V, vilões, VC, mapas e guias de sobrevivência.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "Jogo Roblox",
+    "steamCommunity": "Grupo Roblox",
+    "steamStore": "Troca de Criadores",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Hide From The Villain Wiki. Não afiliado à Roblox Corporation ou Splitline: World.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Hide From The Villain",
+      "description": "Últimos códigos de Hide From The Villain funcionando para VC grátis, poderes de TEMP V e recompensas de sobrevivência. Resgate no grupo oficial do Roblox e volte para novas quedas.",
+      "metaTitle": "Códigos de Hide From The Villain - Recompensas de VC e TEMP V Grátis",
+      "metaDescription": "Obtenha VC grátis, poderes de TEMP V e recompensas de sobrevivência com códigos ativos de Hide From The Villain. Resgate no grupo do Roblox e verifique diariamente para novos códigos.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "Os códigos de Hide From The Villain são strings de recompensa gratuitas lançadas pelo desenvolvedor Splitline: World através do grupo oficial do Roblox. Resgatá-los concede moeda VC, cargas de poder TEMP V e outros impulsos de sobrevivência para ajudá-lo a permanecer escondido por mais tempo e revidar.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "VC e Recompensas Grátis",
+        "step1Description": "Reivindique moeda VC grátis e cargas de TEMP V sem precisar farmar",
+        "step2Title": "Desbloqueios Mais Rápidos",
+        "step2Description": "Gaste VC economizado em skins de vilão e itens de sobrevivência mais cedo",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Novos códigos são lançados a cada atualização, então verifique regularmente"
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guia Hide From The Villain",
+      "description": "Guias completos de Hide From The Villain, desde o básico para iniciantes até táticas avançadas de sobrevivência. Aprenda a jogar, se esconder, escapar e vencer todas as partidas.",
+      "metaTitle": "Guia Hide From The Villain - Passo a Passo e Dicas para Iniciantes",
+      "metaDescription": "Domine Hide From The Villain com passo a passos completos, guias para iniciantes, táticas de esconderijo, rotas de fuga e estratégias de sobrevivência para o jogo Roblox 1vAll.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "Guias abrangentes cobrindo o básico da primeira partida, objetivos dos sobreviventes, regras de esconderijo, tempo de resgate e estratégias avançadas de sobrevivência. Tudo o que você precisa para ir do primeiro spawn a fugas consistentes.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Aprenda o Básico",
+        "step1Description": "Entenda os objetivos dos sobreviventes, as regras de esconderijo e o tempo de resgate",
+        "step2Title": "Sobreviva Mais Tempo",
+        "step2Description": "Siga táticas comprovadas de esconderijo e fuga para durar mais que o vilão",
+        "step3Title": "Evite Erros",
+        "step3Description": "Pule erros comuns de iniciantes que fazem você ser pego cedo"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "roblox": {
+      "title": "Hide From The Villain Roblox",
+      "description": "Tudo sobre Hide From The Villain no Roblox: o link oficial do jogo, o grupo Splitline: World, notas de atualização e como se juntar à comunidade.",
+      "metaTitle": "Hide From The Villain Roblox - Link do Jogo, Grupo e Atualizações",
+      "metaDescription": "Encontre o link oficial do jogo Hide From The Villain Roblox, o grupo Splitline: World, as últimas atualizações e os canais da comunidade para se manter conectado.",
+      "categoryLabel": "ROBLOX",
+      "whatIs": "O que está no Roblox?",
+      "whatIsDescription": "A experiência oficial de Hide From The Villain vive no Roblox. Esta seção cobre a página do jogo, o grupo de desenvolvedores Splitline: World onde os códigos são postados, notas de atualização e os canais oficiais da comunidade vinculados ao grupo.",
+      "why": "Por que usar os links oficiais do Roblox?",
+      "whySteps": {
+        "step1Title": "Página Oficial do Jogo",
+        "step1Description": "Jogue o jogo real e evite clones falsos",
+        "step2Title": "Grupo para Códigos",
+        "step2Description": "O grupo Splitline: World é onde novos códigos e atualizações são postados",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Siga as notas de patch e os canais da comunidade em um só lugar"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Roblox"
+    },
+    "villain": {
+      "title": "Vilões Hide From The Villain",
+      "description": "Todos os vilões Hide From The Villain, skins de vilão e como se tornar o vilão. Aprenda cada papel de vilão e a melhor prioridade de desbloqueio para o modo 1vAll.",
+      "metaTitle": "Vilões Hide From The Villain - Skins, Papéis e Como Se Tornar Vilão",
+      "metaDescription": "Descubra todas as skins de vilão Hide From The Villain, aprenda como se tornar o vilão e escolha o melhor vilão com guias de papel e prioridade de desbloqueio.",
+      "categoryLabel": "VILÕES",
+      "whatIs": "O que são Vilões?",
+      "whatIsDescription": "Vilões são os caçadores no modo 1-vs-all de Hide From The Villain. Um jogador se torna o vilão e deve encontrar e eliminar os sobreviventes escondidos antes que o resgate chegue. Esta seção cobre todas as skins de vilão, suas identidades, como se tornar o vilão e quais skins valem a pena desbloquear primeiro.",
+      "why": "Por que aprender sobre vilões?",
+      "whySteps": {
+        "step1Title": "Conheça Seu Caçador",
+        "step1Description": "Entenda cada skin de vilão e como eles rastreiam os sobreviventes",
+        "step2Title": "Torne-se o Vilão",
+        "step2Description": "Aprenda como desbloquear e jogar o papel de vilão você mesmo",
+        "step3Title": "Prioridade de Desbloqueio",
+        "step3Description": "Gaste VC nas melhores skins de vilão na ordem certa"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Vilões"
+    },
+    "gameplay": {
+      "title": "Hide From The Villain Gameplay",
+      "description": "Jogabilidade principal de Hide From The Villain, esconderijos, rotas de fuga e táticas de perseguição para o modo de sobrevivência furtiva 1vAll.",
+      "metaTitle": "Hide From The Villain Gameplay - Esconderijos e Rotas de Fuga",
+      "metaDescription": "Domine a jogabilidade de Hide From The Villain com os melhores esconderijos, rotas de fuga, táticas de perseguição e dicas para iniciantes para sobreviventes.",
+      "categoryLabel": "JOGABILIDADE",
+      "whatIs": "O que é a Jogabilidade?",
+      "whatIsDescription": "Hide From The Villain é um jogo de sobrevivência furtiva 1 vs All. Os sobreviventes se escondem de um único vilão, permanecem vivos até que a ajuda chegue e usam os poderes TEMP V para revidar. Esta seção detalha os layouts dos mapas, os melhores esconderijos, rotas de fuga e táticas de sobrevivência em perseguições.",
+      "why": "Por que estudar a jogabilidade?",
+      "whySteps": {
+        "step1Title": "Melhores Esconderijos",
+        "step1Description": "Aprenda os pontos mais fortes em cada mapa para evitar a detecção",
+        "step2Title": "Rotas de Fuga",
+        "step2Description": "Planeje saídas e quebre a linha de visão quando o vilão se aproximar",
+        "step3Title": "Sobrevivência à Perseguição",
+        "step3Description": "Use os poderes TEMP V e o tempo para sobreviver à caçada"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Toda a Jogabilidade"
+    },
+    "items": {
+      "title": "Hide From The Villain Itens",
+      "description": "Itens de Hide From The Villain, ferramentas, moeda VC e a loja. Aprenda como farmar VC, o que comprar primeiro e quais itens de sobrevivência são mais importantes.",
+      "metaTitle": "Hide From The Villain Itens - Moeda VC, Ferramentas e Guia da Loja",
+      "metaDescription": "Farme VC, gaste com sabedoria e domine os itens de sobrevivência em Hide From The Villain. Guia completo para moeda, ferramentas, a loja e TEMP V.",
+      "categoryLabel": "ITENS",
+      "whatIs": "O que são Itens?",
+      "whatIsDescription": "Itens cobrem tudo o que os sobreviventes gastam e usam: moeda VC, a loja, cargas de poder TEMP V, ferramentas e consumíveis como o Kit de Primeiros Socorros. Esta seção explica como ganhar VC, onde gastá-lo e quais itens lhe dão a melhor vantagem de sobrevivência.",
+      "why": "Por que gerenciar itens?",
+      "whySteps": {
+        "step1Title": "Farmar VC",
+        "step1Description": "Ganhe VC de forma eficiente através de partidas e códigos",
+        "step2Title": "Gastar com Inteligência",
+        "step2Description": "Priorize os itens da loja e as skins de vilão que mais importam",
+        "step3Title": "Ferramentas de Sobrevivência",
+        "step3Description": "Saiba quando usar TEMP V, Kits de Primeiros Socorros e outros consumíveis"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Itens"
+    }
   }
 }
