@@ -40,12 +40,12 @@ export async function DetailPage({
 
   // 内容类型翻译映射
   const contentTypeLabels: Record<string, string> = {
-    guides: t("nav.guides"),
-    crafting: t("nav.crafting"),
+    codes: t("nav.codes"),
+    guide: t("nav.guide"),
+    roblox: t("nav.roblox"),
+    villain: t("nav.villain"),
+    gameplay: t("nav.gameplay"),
     items: t("nav.items"),
-    biomes: t("nav.biomes"),
-    building: t("nav.building"),
-    support: t("nav.support"),
   };
 
   // 提取图片元数据

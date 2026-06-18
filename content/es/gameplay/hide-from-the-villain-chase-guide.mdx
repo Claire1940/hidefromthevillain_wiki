@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Ghost } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de persecución de hide from the villain: Tácticas Pro de Sigilo y Escape",
+  description: "Domina la guía de persecución de hide from the villain con rutas de sigilo expertas, tiempos de TEMP V y estrategias de supervivencia para la experiencia 1vAll de Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Chase+Survival+Guide",
+  date: "2026-06-18",
+  author: "Equipo de la Wiki de hide from the villain",
+  keywords: "hide from the villain, guía de persecución, sigilo, roblox, consejos de supervivencia"
+}
+
+<Callout type="tip" title="Guía Rápida">
+- **Guía de persecución de hide from the villain**: Prioriza romper la línea de visión por encima de la velocidad bruta para reiniciar la IA de búsqueda del villano.
+- **Mecánicas de Sigilo**: Usa las esquinas y la cobertura del entorno para permanecer indetectado; evita los campos abiertos durante la ventana de rescate.
+- **Estrategia de TEMP V**: Guarda tus poderes para escapes críticos o para obligar al villano a retirarse cuando estés atrapado en una esquina.
+- **Economía de VC**: Canjea códigos activos como **GAMEISBACK** y **100KMembers** para asegurar herramientas de supervivencia al inicio del juego.
+- **Conocimiento del Mapa**: Identifica siempre al menos dos rutas de salida antes de comprometerte con un escondite.
+</Callout>
+
+<Section icon={Map} title="Mecánicas Principales de la guía de persecución de hide from the villain">
+
+La supervivencia en la experiencia de Roblox **Hide From The Villain** se define por un ciclo de 1 contra todos de alto riesgo. A diferencia de los juegos tradicionales de esconderse, el villano posee una velocidad superior y herramientas especializadas para rastrear a los supervivientes. Esta **guía de persecución de hide from the villain** se centra en el equilibrio fundamental entre permanecer inmóvil y saber exactamente cuándo esprintar. El sigilo es tu estado predeterminado, pero el movimiento se convierte en una necesidad táctica una vez que el villano entra en tu vecindad inmediata.
+
+| Tipo de Movimiento | Nivel de Ruido | Visibilidad | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Agacharse** | Casi Cero | Baja | Esconderse detrás de paredes bajas o cajas |
+| **Caminar** | Moderado | Media | Reposicionarse entre zonas seguras |
+| **Esprintar** | Alto | Alta | Solo se usa cuando se rompe la línea de visión |
+| **Poder TEMP V** | Variable | Alta | Contraatacar o escapes de emergencia |
+
+<Callout type="warning" title="Evita los Callejones Sin Salida">
+Nunca te escondas en una habitación con una sola entrada. Si el villano revisa esa zona específica, tendrás cero opciones de escape, convirtiendo una búsqueda rutinaria en una eliminación instantánea.
+</Callout>
+
+Romper la persecución requiere más que simplemente huir. Debes utilizar la verticalidad del mapa y los pasillos estrechos para confundir la perspectiva del villano. El objetivo es alcanzar un "Estado Seguro" donde el villano pierda el interés o pase a un objetivo diferente.
+
+| Factor de Persecución | Impacto en Supervivencia | Estrategia |
+| :--- | :--- | :--- |
+| **Línea de Visión** | Crítico | Usa esquinas para desaparecer de la vista del villano |
+| **Resistencia** | Alto | Gestiona tu barra de esprint; no la agotes pronto |
+| **Temporizador de Rescate** | Medio | Mantente pasivo hasta los últimos 30 segundos |
+
+</Section>
+
+<Section icon={Target} title="Posicionamiento de Supervivencia y Conocimiento del Mapa">
+
+Ganar como superviviente depende en gran medida de tu posicionamiento inicial y tu capacidad para rotar a medida que avanza la partida. Los mejores escondites no son necesariamente los más ocultos, sino aquellos que ofrecen el mayor grado de "Conciencia de Salida".
+
+<CardGrid cols={3}>
+  <Card title="El Punto de Anclaje">
+    - **Alto conteo de salidas**
+    - Ubicación central del mapa
+    - Ideal para el inicio de la partida
+  </Card>
+  <Card title="La Ruta Perimetral">
+    - **Baja visibilidad**
+    - Tiempos de viaje más largos
+    - Ideal para evitar el peligro
+  </Card>
+  <Card title="La Zona Vertical">
+    - **Ventaja de altura**
+    - Vista clara del villano
+    - Requiere habilidades de parkour
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Estrategia de Rotación">
+Una vez que el villano busque en tu área y se vaya, rótate a un nuevo cuadrante. Los villanos a menudo regresan a zonas previamente "limpias", asumiendo que los supervivientes han vuelto a sus lugares originales.
+</Callout>
+
+Comprender las zonas del mapa te permite predecir dónde atacará el villano a continuación. La mayoría de los villanos priorizan áreas de mucho tráfico o zonas cerca de las apariciones de TEMP V. Al permanecer en los márgenes de estos puntos calientes, puedes monitorear el movimiento del villano sin convertirte en el objetivo principal.
+
+| Tipo de Zona | Nivel de Riesgo | Recompensa | Comportamiento del Superviviente |
+| :--- | :--- | :--- | :--- |
+| **Área de Aparición** | **Extremo** | Ninguna | Sal inmediatamente; nunca regreses |
+| **Apariciones TEMP V** | **Alto** | Potenciadores | Estrategia de agarrar rápido y huir |
+| **Campos Abiertos** | **Alto** | Visibilidad | Solo cruzar durante distracciones del villano |
+| **Interiores Complejos** | **Bajo** | Protección | Ideal para el sigilo a mitad de partida |
+
+</Section>
+
+<Section icon={Swords} title="Contraataque TEMP V y Sincronización de Poderes">
+
+TEMP V es la mecánica principal para defenderse en **Hide From The Villain**. Transforma una persecución desesperada en una oportunidad táctica. Sin embargo, usar TEMP V prematuramente puede dejarte vulnerable por el resto de la ronda. Los supervivientes deben ver estos poderes como un "botón de reinicio" para un intento de sigilo fallido.
+
+<Steps>
+  <Step num="1" title="Localizar TEMP V">
+    Busca en el entorno recipientes brillantes. A menudo se colocan en áreas abiertas y arriesgadas para atraer a los supervivientes.
+  </Step>
+  <Step num="2" title="Identificar la Amenaza">
+    Determina a qué skin de villano te enfrentas (p. ej., Homelander u Omni-Man). Algunos tienen mejor alcance vertical que otros.
+  </Step>
+  <Step num="3" title="Activar Poder">
+    Activa tu habilidad TEMP V solo cuando el villano se haya comprometido con una persecución y esté a una distancia de ataque.
+  </Step>
+  <Step num="4" title="Ejecutar Escape">
+    Usa las habilidades de superhéroe otorgadas para aturdir al villano o ganar una distancia masiva, luego encuentra inmediatamente un nuevo escondite.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Impulso de Recursos Gratis">
+Canjea los siguientes códigos en 2026 para obtener una ventaja inmediata en VC y recipientes de TEMP V: **GAMEISBACK**, **100KMembers** y **5kCCU**.
+</Callout>
+
+Para maximizar tu supervivencia, usa las recompensas de los códigos de manera efectiva. Los VC (Villain Coins) deben reinvertirse en herramientas de supervivencia antes de gastarlos en cosméticos.
+
+| Código Activo | Tipo de Recompensa | Impacto en el Jugador |
+| :--- | :--- | :--- |
+| **GAMEISBACK** | **300 VC + 3 TEMP V** | Ideal para nuevos jugadores que comienzan |
+| **100KMembers** | **VC + TEMP V** | Alto valor para el progreso a mitad de partida |
+| **5kCCU** | **VC + TEMP V** | Esencial para abastecerse de poderes |
+| **Hotfix** | **300 VC** | Moneda directa para compras en la tienda |
+| **SORRY4SHUTDOWN** | **150 VC + TEMP V** | Compensación por tiempo de inactividad |
+
+</Section>
+
+<Section icon={Trophy} title="Economía de VC y Guía de Prioridad en la Tienda">
+
+Los VC son el alma del progreso en **Hide From The Villain**. Aunque es tentador ahorrar para las skins de villano más caras como Homelander u Omni-Man, tu enfoque principal debe estar en los artículos que extiendan tu vida durante una partida. Un superviviente que vive más tiempo gana más VC por ronda que uno que muere pronto con una skin elegante.
+
+| Artículo / Desbloqueo | Categoría | Prioridad | Valor Práctico |
+| :--- | :--- | :--- | :--- |
+| **TEMP V** | Potenciador | **Rango S** | Esencial para escapar de persecuciones cerradas |
+| **Botiquín** | Supervivencia | **Rango A** | Permite un error durante una persecución |
+| **Skins de Villano** | Cosmético | **Rango B** | Objetivo a largo plazo para la fantasía del rol |
+| **Herramientas** | Utilidad | **Rango C** | Usos específicos según el diseño del mapa |
+
+<Callout type="tip" title="Consejo de Farmeo">
+Canjea todos los códigos activos primero. Esto proporciona una base de VC que te permite omitir el farmeo inicial, permitiéndote concentrarte en dominar los diseños de los mapas en lugar de buscar cada moneda.
+</Callout>
+
+Una vez que hayas dominado el rol de superviviente, puedes invertir tus VC acumulados en skins de villano. Estas skins no son solo para lucirse; proporcionan una silueta distinta y un elemento de juego de rol cuando sea tu turno de cazar.
+
+| Skin de Villano | Estilo | Nivel de Coste | Reconocimiento |
+| :--- | :--- | :--- | :--- |
+| **Homelander** | Cazador con capa | Alto | Muy Alto |
+| **Omni-Man** | Héroe brutal | Alto | Alto |
+| **Evil Superman** | Villano clásico | Medio | Alto |
+| **Skins Básicas** | Estándar | Bajo | Bajo |
+
+</Section>
+
+<Section icon={Sparkles} title="Pasos Avanzados para Escapar de Persecuciones">
+
+Cuando el villano te detecta, el encuentro pasa a ser una persecución de alta intensidad. Seguir estos pasos específicos aumentará significativamente tu tasa de supervivencia, incluso contra cazadores experimentados.
+
+<Steps>
+  <Step num="1" title="Romper la Línea de Visión">
+    Esprinta hacia la esquina o edificio más cercano. El villano no puede rastrearte a través de las paredes a menos que tenga habilidades activas específicas.
+  </Step>
+  <Step num="2" title="El Giro Inesperado">
+    Después de doblar una esquina, agáchate inmediatamente y muévete en una dirección que el villano no esperaría, a menudo de vuelta hacia donde acaba de venir.
+  </Step>
+  <Step num="3" title="Interacción con el Entorno">
+    Usa puertas, ventanas u obstáculos para crear distancia. Cada segundo que el villano pasa sorteando un obstáculo es un segundo que ganas para el sigilo.
+  </Step>
+  <Step num="4" title="Reiniciar Sigilo">
+    Una vez que estés lo suficientemente lejos, deja de esprintar. Caminar o agacharse reduce tu huella sonora, haciendo que sea más difícil para el villano encontrarte de nuevo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Regla Anti-Agrupamiento">
+No te escondas en la misma habitación que otros tres supervivientes. Un solo barrido del villano resultará en múltiples eliminaciones, y tus posibilidades de ser el que escape son estadísticamente menores.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación Final y Preguntas Frecuentes">
+
+Antes de saltar a tu próxima partida, asegúrate de estar completamente preparado para manejar la presión de la caza. El éxito es una combinación de preparación y toma de decisiones sobre la marcha.
+
+<Checklist
+  id="match-prep"
+  title="Lista de Preparación del Superviviente:"
+  items={[
+    "Canjea todos los códigos activos (GAMEISBACK, Hotfix, etc.)",
+    "Equipa al menos un recipiente de TEMP V si está disponible",
+    "Identifica las zonas de salida de rescate principales del mapa",
+    "Revisa la skin del villano para calibrar su alcance",
+    "Comprométete con una ruta de rotación durante los primeros 2 minutos"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de usar esta guía de persecución de hide from the villain?",
+    answer: "Concéntrate en la sección de 'Línea de Visión'. La mayoría de los jugadores fallan porque continúan esprintando en línea recta. Romper la conexión visual es la única forma de terminar realmente una persecución."
+  },
+  {
+    question: "¿Cómo obtengo más TEMP V gratis?",
+    answer: "Usa códigos como 100KMembers y 5kCCU. Además, busca en las esquinas del mapa durante la mitad de la partida cuando el villano esté ocupado persiguiendo a otros jugadores."
+  },
+  {
+    question: "¿Debería comprar skins o herramientas primero?",
+    answer: "Prioriza siempre las herramientas y el TEMP V. La supervivencia conduce a mayores ganancias de VC por partida, lo que hace que comprar skins caras como Homelander sea mucho más rápido a largo plazo."
+  },
+  {
+    question: "¿Qué hago si el villano está campeando la zona de rescate?",
+    answer: "Aquí es cuando el TEMP V es más valioso. Usa tus poderes para aturdir al villano o volar sobre ellos para llegar a la salida de forma segura. Nunca te acerques a una salida campeada sin un potenciador."
+  }
+]} />
+
+</Section>

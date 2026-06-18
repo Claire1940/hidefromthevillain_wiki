@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "roblox": "Roblox",
+    "villain": "Vilão",
+    "gameplay": "Gameplay",
+    "items": "Itens"
+  }
+}

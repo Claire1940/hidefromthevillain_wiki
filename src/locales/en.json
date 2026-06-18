@@ -10,7 +10,14 @@
       "twitterDescription": "Find Hide From The Villain codes, TEMP V powers, VC tips, villains, maps and survival guides for the Roblox 1vAll hide-and-seek survival game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "roblox": "Roblox",
+    "villain": "Villain",
+    "gameplay": "Gameplay",
+    "items": "Items"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -497,125 +504,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Hide From The Villain Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced TEMP V powers strategies. Master survival and crafting.",
-      "metaTitle": "Hide From The Villain Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Hide From The Villain guides covering beginner tips, TEMP V powers system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
+    "codes": {
+      "title": "Hide From The Villain Codes",
+      "description": "Latest working Hide From The Villain codes for free VC, TEMP V powers, and survival rewards. Redeem in the official Roblox group and check back for new drops.",
+      "metaTitle": "Hide From The Villain Codes - Free VC & TEMP V Rewards",
+      "metaDescription": "Get free VC, TEMP V powers, and survival rewards with active Hide From The Villain codes. Redeem in the Roblox group and check daily for new codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Hide From The Villain codes are free reward strings released by the developer Splitline: World through the official Roblox group. Redeeming them grants VC currency, TEMP V power charges, and other survival boosts to help you stay hidden longer and fight back.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free VC & Rewards",
+        "step1Description": "Claim free VC currency and TEMP V charges without grinding",
+        "step2Title": "Faster Unlocks",
+        "step2Description": "Spend saved VC on villain skins and survival items sooner",
+        "step3Title": "Stay Current",
+        "step3Description": "New codes drop with each update, so check back regularly"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Hide From The Villain Guide",
+      "description": "Complete Hide From The Villain guides from beginner basics to advanced survival tactics. Learn how to play, hide, escape, and win every match.",
+      "metaTitle": "Hide From The Villain Guide - Beginner Walkthroughs & Tips",
+      "metaDescription": "Master Hide From The Villain with full walkthroughs, beginner guides, hiding tactics, escape routes, and survival strategies for the Roblox 1vAll game.",
+      "categoryLabel": "GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the TEMP V powers crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering first-match basics, survivor objectives, hiding rules, rescue timing, and advanced survival strategies. Everything you need to go from first spawn to consistent escapes.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the TEMP V powers system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand survivor objectives, hiding rules, and rescue timing",
+        "step2Title": "Survive Longer",
+        "step2Description": "Follow proven hiding and escape tactics to outlast the villain",
+        "step3Title": "Avoid Mistakes",
+        "step3Description": "Skip common beginner errors that get you caught early"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Hide From The Villain Crafting",
-      "description": "Master the TEMP V powers fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Hide From The Villain Crafting - TEMP V powers System & Recipes",
-      "metaDescription": "Master Hide From The Villain TEMP V powers crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The TEMP V powers system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "roblox": {
+      "title": "Hide From The Villain Roblox",
+      "description": "Everything about Hide From The Villain on Roblox: the official game link, the Splitline: World group, update notes, and how to join the community.",
+      "metaTitle": "Hide From The Villain Roblox - Game Link, Group & Updates",
+      "metaDescription": "Find the official Hide From The Villain Roblox game link, the Splitline: World group, latest updates, and community channels to stay connected.",
+      "categoryLabel": "ROBLOX",
+      "whatIs": "What is on Roblox?",
+      "whatIsDescription": "The official Hide From The Villain experience lives on Roblox. This section covers the game page, the Splitline: World developer group where codes are posted, update notes, and the official community channels linked from the group.",
+      "why": "Why use the official Roblox links?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Official Game Page",
+        "step1Description": "Play the real game and avoid fake clones",
+        "step2Title": "Group for Codes",
+        "step2Description": "The Splitline: World group is where new codes and updates are posted",
+        "step3Title": "Stay Updated",
+        "step3Description": "Follow patch notes and community channels from one place"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Roblox"
+    },
+    "villain": {
+      "title": "Hide From The Villain Villains",
+      "description": "All Hide From The Villain villains, villain skins, and how to become the villain. Learn each villain role and the best unlock priority for the 1vAll mode.",
+      "metaTitle": "Hide From The Villain Villains - Skins, Roles & How to Become Villain",
+      "metaDescription": "Discover every Hide From The Villain villain skin, learn how to become the villain, and pick the best villain with role guides and unlock priority.",
+      "categoryLabel": "VILLAINS",
+      "whatIs": "What are Villains?",
+      "whatIsDescription": "Villains are the hunters in Hide From The Villain's 1-vs-all mode. One player becomes the villain and must find and eliminate hiding survivors before rescue arrives. This section covers every villain skin, their identities, how to become the villain, and which skins are worth unlocking first.",
+      "why": "Why learn villains?",
+      "whySteps": {
+        "step1Title": "Know Your Hunter",
+        "step1Description": "Understand each villain skin and how they track survivors",
+        "step2Title": "Become the Villain",
+        "step2Description": "Learn how to unlock and play the villain role yourself",
+        "step3Title": "Unlock Priority",
+        "step3Description": "Spend VC on the best villain skins in the right order"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Villains"
+    },
+    "gameplay": {
+      "title": "Hide From The Villain Gameplay",
+      "description": "Core Hide From The Villain gameplay, hiding spots, escape routes, and chase tactics for the 1vAll stealth survival mode.",
+      "metaTitle": "Hide From The Villain Gameplay - Hiding Spots & Escape Routes",
+      "metaDescription": "Master Hide From The Villain gameplay with the best hiding spots, escape routes, chase tactics, and first-time-playing tips for survivors.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "What is the Gameplay?",
+      "whatIsDescription": "Hide From The Villain is a 1-vs-all stealth survival game. Survivors hide from a single villain, stay alive until help arrives, and use TEMP V powers to fight back. This section breaks down map layouts, the best hiding spots, escape routes, and chase survival tactics.",
+      "why": "Why study gameplay?",
+      "whySteps": {
+        "step1Title": "Best Hiding Spots",
+        "step1Description": "Learn the strongest spots on each map to avoid detection",
+        "step2Title": "Escape Routes",
+        "step2Description": "Plan exits and break line of sight when the villain closes in",
+        "step3Title": "Chase Survival",
+        "step3Description": "Use TEMP V powers and timing to survive the hunt"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay"
     },
     "items": {
       "title": "Hide From The Villain Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Hide From The Villain Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Hide From The Villain including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
+      "description": "Hide From The Villain items, tools, VC currency, and the shop. Learn how to farm VC, what to buy first, and which survival items matter most.",
+      "metaTitle": "Hide From The Villain Items - VC Currency, Tools & Shop Guide",
+      "metaDescription": "Farm VC, spend it wisely, and master survival items in Hide From The Villain. Complete guide to currency, tools, the shop, and TEMP V.",
+      "categoryLabel": "ITEMS",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "whatIsDescription": "Items cover everything survivors spend and use: VC currency, the shop, TEMP V power charges, tools, and consumables like the First Aid Kit. This section explains how to earn VC, where to spend it, and which items give you the best survival edge.",
+      "why": "Why manage items?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using TEMP V powers",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Farm VC",
+        "step1Description": "Earn VC efficiently through matches and codes",
+        "step2Title": "Spend Smart",
+        "step2Description": "Prioritize the shop items and villain skins that matter most",
+        "step3Title": "Survival Tools",
+        "step3Description": "Know when to use TEMP V, First Aid Kits, and other consumables"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
-    },
-    "biomes": {
-      "title": "Hide From The Villain Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Hide From The Villain Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Hide From The Villain biomes including hiding routes, danger zones, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Hide From The Villain Building",
-      "description": "Master survival tools personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Hide From The Villain Building - survival tools & Base Construction",
-      "metaDescription": "Master Hide From The Villain building with survival tools personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the survival tools personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock survival tools",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Hide From The Villain Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Hide From The Villain Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Hide From The Villain including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
     }
   }
 }

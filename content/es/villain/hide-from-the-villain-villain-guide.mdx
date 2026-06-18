@@ -1,0 +1,155 @@
+import { Map, Swords, Shield, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hide From The Villain: Guía Definitiva y Tácticas del Villano",
+  description: "Domina el arte de ser el villano en Hide From The Villain con esta guía completa de skins, poderes y estrategias de caza.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Villain+Guide",
+  date: "2026-06-18",
+  author: "Equipo Wiki de Hide From The Villain"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Rol del Villano**: Comprende cómo **convertirte en el villano** y sus objetivos principales.
+- **Skins de Villano**: Prioriza las **skins de villano** para la identidad visual y la colección.
+- **Tácticas de Caza**: Aprende **estrategias efectivas de caza de villanos** y control del mapa.
+- **Contrajuego TEMP V**: Adáptate a los supervivientes que usan **poderes TEMP V** para defenderse.
+- **Gasto de VC**: Optimiza la **moneda VC** para skins de villano y potenciadores.
+</Callout>
+
+<Section icon={Swords} title="Convertirse en el Villano: Rol y Objetivos">
+En Hide From The Villain, asumir el papel del villano transforma el juego de un desafío de supervivencia sigilosa en una emocionante cacería. Tu objetivo principal es eliminar a todos los supervivientes antes de que puedan escapar o reunir suficiente TEMP V para defenderse. Este rol exige conocimiento del mapa, persecución estratégica y la capacidad de predecir los movimientos de los supervivientes.
+
+**Aspectos Destacados del Video:**
+- Demuestra el spawn y movimiento inicial del villano.
+- Muestra técnicas efectivas de rastreo de supervivientes.
+- Destaca errores comunes cometidos por los nuevos villanos.
+
+<Callout type="tip" title="Mentalidad de Villano">
+Como villano, tu objetivo no es solo perseguir, sino aplicar presión constante. Fuerza a los supervivientes a posiciones menos ventajosas y corta las rutas de escape. Piensa como un depredador, no como un peleador.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Skins de Villano y Prioridad de Desbloqueo">
+Las skins de villano en Hide From The Villain son más que simples cosméticos; definen tu presencia y pueden influir en cómo te perciben los supervivientes. Aunque no ofrecen ventajas estadísticas, una skin distintiva puede mejorar tu experiencia de juego de rol y convertirte en una presencia más formidable. Los VC (Monedas de Villano) son la moneda principal para desbloquear estas skins.
+
+| Tipo de Skin        | Razón de Prioridad                               | Mejor para                                   | Plan de VC                                         |
+| :------------------ | :----------------------------------------------- | :------------------------------------------- | :------------------------------------------------- |
+| **TEMP V (Antes de Skins)** | Afecta directamente la supervivencia al otorgar habilidades | Nuevos jugadores que necesitan valor de juego inmediato | Compra o canjea TEMP V primero, luego ahorra para skins. |
+| **Skin de Homelander** | Altamente reconocible, encaja con la fantasía de caza | Jugadores que desean una identidad de cazador clara | Ahorra VC después de cubrir las herramientas básicas de supervivencia. |
+| **Skin de Omni-Man** | Fuerte objetivo de coleccionista, estilo superhéroe malvado | Jugadores centrados en la colección de villanos | Desbloquea después de un flujo constante de VC de códigos y juego. |
+| **Estilo Superman Malvado** | Villano con capa reconocible, variedad visual | Coleccionistas con un aspecto de villano principal preferido | Compra después de compras de supervivencia de mayor prioridad. |
+
+<Callout type="success" title="Gasto Inteligente de VC">
+Prioriza la adquisición de TEMP V para las partidas de superviviente antes de invertir fuertemente en skins de villano. Esto asegura que tengas opciones de combate independientemente de tu rol, luego ahorra para el aspecto de villano que mejor se adapte a tu estilo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategias de Caza Efectivas y Control del Mapa">
+Dominar el papel del villano requiere comprender los diseños del mapa, identificar puntos de escondite comunes y desarrollar rutas de patrulla eficientes. El objetivo es minimizar las oportunidades de los supervivientes para reagruparse o encontrar TEMP V.
+
+<CardGrid cols={2}>
+  <Card title="Patrulla Áreas Clave">
+    Concentra las patrullas en áreas con alto tráfico de supervivientes o spawns conocidos de TEMP V. Esto mantiene la presión y limita la recolección de recursos.
+  </Card>
+  <Card title="Corta Rutas de Escape">
+    Anticipa las rutas de escape de los supervivientes. Bloquea las salidas o embúscalos en callejones sin salida donde tengan menos opciones.
+  </Card>
+  <Card title="Pistas Sonoras y Visuales">
+    Presta atención a las sutiles pistas sonoras (pasos, puertas que se abren) y visuales (objetos en movimiento, cajas abiertas) que indican la presencia de supervivientes.
+  </Card>
+  <Card title="Usa las Habilidades Sabiamente">
+    Si el villano tiene habilidades especiales, úsalas estratégicamente para desorientar, ralentizar o rastrear a los supervivientes, no solo para causar daño directo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evita la Visión de Túnel">
+No te concentres en un solo superviviente durante demasiado tiempo, especialmente si otros están escapando o reuniendo TEMP V. Un barrido rápido del mapa puede ser más efectivo que una persecución prolongada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Contrarrestar TEMP V y Tácticas de Supervivencia">
+Los supervivientes equipados con TEMP V pueden cambiar las tornas, obteniendo poderes temporales para defenderse. Como villano, debes adaptar tu estrategia a estas amenazas potenciadas.
+
+<Steps>
+  <Step num="1" title="Identifica a los Usuarios de TEMP V">
+    Busca pistas visuales o un uso de poder distintivo que indique que un superviviente ha activado TEMP V. Prioriza estos objetivos con cuidado.
+  </Step>
+  <Step num="2" title="Mantén la Distancia (Si es Posible)">
+    Algunos poderes TEMP V implican combate a corta distancia. Si sabes que un superviviente tiene tal poder, intenta atacar desde la distancia o desengancha temporalmente.
+  </Step>
+  <Step num="3" title="Fuerza a que Desperdicien Poderes">
+    Usa fintas o movimientos rápidos para hacer que los supervivientes activen TEMP V prematuramente o usen sus poderes de manera ineficiente.
+  </Step>
+  <Step num="4" title="Aprovecha los Tiempos de Recarga">
+    Una vez que el TEMP V de un superviviente se agota, son vulnerables. Esta es tu ventana para atacar decisivamente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Guía de Moneda VC y Tienda">
+VC es la moneda principal en Hide From The Villain. Los jugadores la usan para desbloquear skins de villano y comprar herramientas de supervivencia como botiquines de primeros auxilios y TEMP V. Los VC se ganan a través del juego regular y códigos de canje, luego se gastan en la tienda del juego. Los nuevos jugadores deben tratar los VC como combustible de progresión: las herramientas de supervivencia ayudan de inmediato, TEMP V cambia una ronda al otorgar habilidades de superhéroe aleatorias, y las skins de villano son mejores para los jugadores que quieren convertirse en el cazador.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión del Villano e Hitos de la Comunidad">
+Comprender cómo progresar como villano y seguir los hitos de la comunidad puede proporcionar valiosas recompensas de VC y nuevas oportunidades. Mantente al día con los anuncios oficiales para maximizar tus ganancias.
+
+<Checklist
+  id="villain-progression"
+  title="Lista de Verificación de Progresión del Villano:"
+  items={[
+    "Desbloquea una skin de villano preferida para establecer identidad.",
+    "Domina las rutas de patrulla y los puntos de escondite de al menos un mapa.",
+    "Aprende a identificar y contrarrestar los poderes comunes de TEMP V.",
+    "Participa en eventos comunitarios para obtener VC y artículos adicionales.",
+    "Sigue los códigos activos para obtener VC y recompensas TEMP V gratuitas."
+  ]}
+/>
+
+| Tipo de Evento      | Código / Hito      | Detalles                                    | Impacto en el Jugador                             |
+| :------------------ | :----------------- | :------------------------------------------ | :------------------------------------------------ |
+| **Hito de la comunidad** | 100KMembers        | Recompensas de VC y TEMP V.                 | Útil para jugadores que desean moneda y poder.   |
+| **Jugadores concurrentes** | 5kCCU              | Recompensas de VC y TEMP V.                 | Hito importante para ahorrar para herramientas/skins. |
+| **Recompensa de regreso** | GAMEISBACK         | 300 VC y 3 TEMP V.                          | Excelente recompensa inicial de moneda y poderes. |
+| **Recompensa de hotfix** | Hotfix             | 300 VC.                                     | Bueno para ahorrar para compras en la tienda.   |
+| **Compensación por apagado** | SORRY4SHUTDOWN     | 150 VC y TEMP V.                            | Ayuda a los jugadores a recuperar valor después del tiempo de inactividad. |
+
+<Callout type="tip" title="Mantente Actualizado">
+El grupo oficial de Roblox para Splitline: World es la mejor fuente de nuevos códigos, actualizaciones e hitos de la comunidad. Revísalo regularmente para obtener recompensas gratuitas que pueden impulsar tu carrera de villano.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes del Villano">
+
+<FAQ items={[
+  {
+    question: "¿Cómo me convierto en el villano en Hide From The Villain?",
+    answer: "El juego selecciona aleatoriamente a un jugador para ser el villano al comienzo de cada ronda. No hay acciones específicas para garantizar convertirse en el villano, pero algunos jugadores informan que es más probable si tienes ciertas skins de villano desbloqueadas."
+  },
+  {
+    question: "¿Las skins de villano ofrecen alguna ventaja en el juego?",
+    answer: "No, las skins de villano son puramente cosméticas y no ofrecen ninguna ventaja estadística o de juego. Sirven para personalizar tu apariencia y mejorar la experiencia de juego de rol."
+  },
+  {
+    question: "¿Cuál es la mejor estrategia para cazar supervivientes?",
+    answer: "La caza efectiva implica una combinación de conocimiento del mapa, anticipación de los movimientos de los supervivientes y aplicación de presión constante. Evita rutas de patrulla predecibles y usa las pistas sonoras para localizar a los jugadores escondidos. Aprender a contrarrestar TEMP V también es crucial."
+  },
+  {
+    question: "¿Puedo defenderme de los supervivientes que usan TEMP V?",
+    answer: "Sí, los supervivientes con TEMP V pueden obtener poderes temporales para defenderse. Como villano, debes estar preparado para esto. Intenta forzarlos a desperdiciar sus poderes, mantén la distancia si su poder es de corto alcance y ataca durante el período de enfriamiento de su poder."
+  }
+]} />
+
+</Section>
